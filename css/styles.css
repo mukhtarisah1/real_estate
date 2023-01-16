@@ -1,0 +1,448 @@
+body{
+    background-color: #fefaea;
+}
+.navbar{
+    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.navbar .container-fluid{
+    padding: 1% 10% 0.5%;
+    background-color: white; 
+    border-bottom: 1px solid #C6EBC5;
+}
+.container-fluid{
+    padding: 1% 10% 0.5%;
+}
+
+.navbar-nav a:hover{
+    background-color: #C6EBC5;
+}
+.navbar-nav li{
+   padding:10px;
+    
+}
+.navbar .active{
+    background-color: #C6EBC5;
+} 
+
+ .logo-img {
+    width: 100px;
+}
+/* image-slider ----------------------------------------------------------------------------------------------*/
+.background-image {
+    height: 700px;
+    
+    
+}
+.section-slider{
+    position: relative;
+    
+    
+    
+}
+
+/* banner styles --------------------------------------------------------------------------------------------*/
+.price-banner{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.40);
+    top: 150px;
+    right:110px ;
+    padding: 20px 30px 20px 20px;
+
+    border-top: 5px solid #FA7070;
+}
+.price-banner p{
+    color: #fff;
+}
+.price-banner h2{
+    color: #fff;
+}
+ .cash{
+    color: #50B848;
+    font-size: 1.6rem;
+}
+.sale{
+    color: black;
+    font-size: 1rem;
+    padding: 5px 7px;
+    background-color: white;
+    border-top-left-radius:  50%;
+    border-bottom-left-radius: 50%;
+    margin-left: 50px;
+}
+.sale:hover{
+    background-color: #FA7070;
+}
+.icons-display{
+    display: flex;
+    justify-content:space-between;
+    
+}
+ .icon{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    
+ }
+ .icon p{
+    margin-bottom: 0px;
+    padding-left:10px ;
+ }
+ .icon-color{
+    color:#FA7070
+ }
+ .number {
+    font-size: 1.2rem;
+ }
+ .btn-color{
+    background-color: #FA7070;
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    display: block;
+    font-weight: 3px;
+    margin: 7% 0;
+ }
+ .bi::before{
+    background-size: 2rem 2rem;
+ }
+ /* end */
+ /* quick search ----------------------------------------------------------------------------------------*/
+ .searcher{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 15px;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.6;
+    background-color: #FA7070;
+    width: 150px;
+    
+ }
+/* form style -------------------------------------------------------------------------------------------------*/
+.items{
+    padding-right: 0;
+}
+.spacer{
+    padding-bottom: 30px ;  
+    padding-top: 30px;
+    background-color: #FBF2CF;
+}
+
+.form-style{
+    padding-bottom: 10px;
+}
+.form-style select{
+    padding: 10px;
+    border-radius: 0;
+    
+}
+.form-style input{
+    padding: 10px;
+    border-radius: 0;
+    margin-left:0;
+    color: #000;
+    
+}
+.form-style select:hover{
+    background-color: #eaf7ea;
+    box-shadow: none;
+}
+.form-style button{
+    height: 46px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+.form-style button:hover{
+    background-color: #FA7070;
+} 
+.plus{
+    display: flex;
+    color: #000;
+    padding-top: 10px;
+}
+.plus p{
+    color: #000;
+    margin-left: 20px;
+}
+.i-plus{
+    color: #000;
+    font-size: 1em;
+    background-color: #fff;
+    height: 20px;
+    padding: 0;
+}
+/* cards section */
+.card-section{
+    background-color: #fefaea;
+}
+.card{
+    color: #777777;
+    margin-bottom: 25px;
+    border: 0;    
+    overflow: hidden;
+    background-color: #fefaea;
+    
+    
+}
+.card img{
+    height:231px ;
+    background-size: 100%;
+    transition: all 2s ease-in-out;
+    
+    
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+    
+    width:100% ;
+}
+.card-text{
+    color: #FA7070;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 1.6rem;
+}
+.card-icons{
+    display:flex;
+    margin: auto;
+    padding-top: 25px;
+    background-color: #fefaea;
+    width: 100%;
+    justify-content: space-around; 
+    border: #eaf7ea 1px dotted;
+}
+.inner-border{
+    border: #eaf7ea 1px dotted
+}
+.card-icons div{
+    margin-left: 10px;
+}
+.card-icons p{
+    margin-bottom: 0;
+}
+/* card for sale icon */
+.card-for-sale{
+    position: absolute;
+    background-color: #FA7070;
+    color: #fff;
+    padding:5px 7px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    top: 20px;
+    left: 10px;
+    font-size: 0.7rem;
+}
+.card-for-rent{
+    position: absolute;
+    background-color: #70bcfa;
+    color: #fff;
+    padding:5px 7px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    top: 20px;
+    left: 10px;
+    font-size: 0.7rem;
+}
+/* Add property section -----------------------------------------------------------------------*/
+    .add-property{
+        height: auto;
+        position: relative;
+        background-color: #000;
+    }
+    .add-property::before{
+        content: "";
+        position: absolute;
+        opacity: 0.3;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url('../images/pexels-expect-best-323780.jpg');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    
+    h1,h2{
+        color: #fff;
+    }
+    .add-property p{
+        color: #B3B6BB;
+    }
+    .contents{
+        padding-top: 7%;
+        position: relative;
+    }
+    .property-button{
+        display: block;
+        text-align: center;
+        margin: 3%;   
+        padding: 2%;
+    }
+    .property-button button{
+        padding: 20px 10px;
+        background-color: #FA7070;
+        font-weight: 500;
+        color: #fff;
+        border: none;
+        width: 250px;
+    }
+    .property-button button:hover{
+        background-color: #50B848;
+    }
+    .content-plans h3{
+         color: #50B848;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         font-weight: 200;    
+         box-sizing: border-box;   
+    }
+/*featured image section ----------------------------------------------------------------------*/
+.featured-propertise h3{
+    color: #777777;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.featured-propertise{
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+}
+.f-image{
+    height: 240px;
+    width: 330px;
+    box-sizing: border-box;
+    display: flex;
+    margin-right: 20px;  
+    margin-bottom: 30px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.f-image img{
+    height: 240px;
+    width: 330px;    
+}
+
+.hover-text-sale{
+    position: absolute;
+    height: 240px;
+    width: 330px; 
+    background-color: rgba(0, 0, 0, 0.738);
+    top: 150px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+
+
+.white{
+    color: #fff;
+}
+.price{
+    color: #70bcfa;
+}
+.hover-text-sale hr{
+    margin-top:0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    color: #fff;
+}
+.hover-text-sale p{
+    margin-bottom: 10px;
+}
+.for-sale{
+    background-color: #FA7070;
+    margin: 3px 20px ;
+    padding: 3px 15px;
+    
+    
+}
+.items-sale{
+    justify-content: space-between;
+    align-items: baseline;
+}
+/* patners section -------------------------------------------------------------*/
+.patners img{
+    padding: 0 30px;
+}
+/* latets news section---------------------------------------------------------- */
+.carousel-head{
+    color: #4A525D;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.latest-news{
+    margin: 20px 0 50px 0;
+    padding-bottom: 20px;
+}
+.latest-news a{
+    text-decoration: none;
+}
+.latest-news a:hover{
+    color: #50B848;
+    text-decoration: none;
+}
+.by-person{
+    color: #70bcfa;
+}
+.by-person:hover{
+    color: #50B848;
+}
+/* footer section ------------------------------------------------------------------------------------------------------- */
+.footer-section{
+    background-color: #8a8d91;
+    color: #fff;
+    height: 500px;
+    margin: 0;
+    line-height: 1.6;
+    padding-top: 50px;
+}
+.footer-section img{
+    width: 200px;
+    background-size: cover;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #4A525D;;
+    font-size: 1rem;
+ 
+}
+.footer-section a:hover{
+    color: #fff;
+}
+.footer-section i{
+    margin-left: 5px;
+    height: 100px;
+}
+.footer-section p{
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.4rem;
+}
+
+
+/* mobile version edits */
+@media(max-width:768px){
+    .items{
+        padding-bottom: 10px;
+    }
+    .price-banner{
+        display: none;
+    }
+}
+
+
+
+
+
+
